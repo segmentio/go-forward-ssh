@@ -10,5 +10,13 @@ Usage:
 - Use `-L` for local forwarding
 - Use `-R` for remote forwarding
 
+Build:
+```bash
+go get github.com/segmentio/godep
+make build
+```
 
-
+Run:
+```bash
+./bin/forward-ssh <options>
+```
